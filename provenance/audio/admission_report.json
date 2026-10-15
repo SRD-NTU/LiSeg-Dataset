@@ -1,0 +1,105 @@
+{
+  "release_ready": true,
+  "classes": [
+    "clock",
+    "coffee machine",
+    "dishwasher",
+    "door",
+    "fan",
+    "kettle",
+    "keyboard",
+    "microwave",
+    "printer",
+    "refrigerator",
+    "speaker",
+    "toaster",
+    "toilet",
+    "tv",
+    "vacuum cleaner",
+    "washing machine"
+  ],
+  "clips": 96,
+  "counts": {
+    "clock": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "coffee machine": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "dishwasher": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "door": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "fan": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "kettle": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "keyboard": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "microwave": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "printer": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "refrigerator": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "speaker": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "toaster": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "toilet": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "tv": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "vacuum cleaner": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    },
+    "washing machine": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    }
+  },
+  "quality_scope": "Metadata physical/source/licence review and file signal/hash validation; no listening review claimed; Freesound HQ MP3 previews are lossy."
+}

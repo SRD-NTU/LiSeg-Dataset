@@ -1,0 +1,8 @@
+{
+  "sha256": {
+    "lidar.npz": "4cf0c8d5cfa5c5e2f84d4e205dd6fe70881e4d4209f09af70c4fba415985e0eb",
+    "audio.wav": "6fa933991ee1bdfc3fae2d94ae529f99fe8b2da67d92b187d845bf3749ce9819",
+    "rir.npy": "33be848145b55a275dc5d07eae4e5ba8e9b0a83fdcd519d456b7da2b3b1bcda8",
+    "metadata.json": "f2b25bb2a447bd61fa5120a924c14c097241bc9c928f799d4bcd5355778446fc"
+  }
+}

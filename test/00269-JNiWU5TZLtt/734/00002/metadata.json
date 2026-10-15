@@ -1,0 +1,401 @@
+{
+  "benchmark": "AudioLiDAR-HM3D",
+  "version": "0.3-four-microphone-portable",
+  "split": "test",
+  "scene_id": "00269-JNiWU5TZLtt",
+  "config_sha256": "7f80ad41a27fcf469944b8f2ec854622fca589b405558d9722af64bf206f6f16",
+  "source": {
+    "instance_id": 734,
+    "color": 6925641,
+    "category": "keyboard",
+    "region_id": 10,
+    "semantic_id": 801,
+    "center": [
+      -2.562881588935852,
+      0.7694739997386932,
+      -4.974768161773682
+    ],
+    "bbox_min": [
+      -2.7729721069335938,
+      0.7524080276489258,
+      -5.203564167022705
+    ],
+    "bbox_max": [
+      -2.3527910709381104,
+      0.7865399718284607,
+      -4.745972156524658
+    ],
+    "bbox_dimensions": [
+      0.4201810359954834,
+      0.03413194417953491,
+      0.4575920104980469
+    ],
+    "bbox_method": "bounds of triangles with instance-labeled centroids",
+    "scene_id": "00269-JNiWU5TZLtt",
+    "position_world": [
+      -2.8075509809811123,
+      0.7908034480172847,
+      -4.889905168695905
+    ],
+    "placement": "visible-instance-surface-offset",
+    "surface_offset_m": 0.06
+  },
+  "listener": {
+    "position_world": [
+      -0.9721770882606506,
+      1.272405844926834,
+      -4.437108993530273
+    ],
+    "floor_position_world": [
+      -0.9721770882606506,
+      0.0724058449268341,
+      -4.437108993530273
+    ],
+    "rotation_world": [
+      0.0,
+      0.8484399013805204,
+      0.0,
+      0.5292917283931544
+    ],
+    "yaw_rad": 2.02606154386939,
+    "yaw_pitch_roll": [
+      2.02606154386939,
+      0.0,
+      0.0
+    ]
+  },
+  "relative_source": {
+    "position_lidar": [
+      1.449336144481615,
+      -1.2136912468266599,
+      -0.48160239690954926
+    ],
+    "distance_m": 1.9507851165706356,
+    "azimuth_deg": -39.943204968900226,
+    "elevation_deg": -14.29273787309411
+  },
+  "lidar": {
+    "profile": "generic-64-uniform-45deg",
+    "num_beams": 64,
+    "horizontal_fov_deg": 360.0,
+    "horizontal_resolution_deg": 0.2,
+    "vertical_angles_deg": [
+      -22.5,
+      -21.7857143,
+      -21.0714286,
+      -20.3571429,
+      -19.6428571,
+      -18.9285714,
+      -18.2142857,
+      -17.5,
+      -16.7857143,
+      -16.0714286,
+      -15.3571429,
+      -14.6428571,
+      -13.9285714,
+      -13.2142857,
+      -12.5,
+      -11.7857143,
+      -11.0714286,
+      -10.3571429,
+      -9.6428571,
+      -8.9285714,
+      -8.2142857,
+      -7.5,
+      -6.7857143,
+      -6.0714286,
+      -5.3571429,
+      -4.6428571,
+      -3.9285714,
+      -3.2142857,
+      -2.5,
+      -1.7857143,
+      -1.0714286,
+      -0.3571429,
+      0.3571429,
+      1.0714286,
+      1.7857143,
+      2.5,
+      3.2142857,
+      3.9285714,
+      4.6428571,
+      5.3571429,
+      6.0714286,
+      6.7857143,
+      7.5,
+      8.2142857,
+      8.9285714,
+      9.6428571,
+      10.3571429,
+      11.0714286,
+      11.7857143,
+      12.5,
+      13.2142857,
+      13.9285714,
+      14.6428571,
+      15.3571429,
+      16.0714286,
+      16.7857143,
+      17.5,
+      18.2142857,
+      18.9285714,
+      19.6428571,
+      20.3571429,
+      21.0714286,
+      21.7857143,
+      22.5
+    ],
+    "min_range_m": 0.5,
+    "max_range_m": 20.0,
+    "sensor_height_m": 1.2,
+    "noise": "none",
+    "returns": "first",
+    "frame": "x-forward_y-left_z-up",
+    "range_unit": "metres",
+    "num_points": 115148,
+    "num_source_points": 290,
+    "source_point_fraction": 0.0025184979330947995
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "duration_sec": 2.0,
+    "mode": "microphone_array_4",
+    "channel_order": [
+      "tetra_a",
+      "tetra_b",
+      "tetra_c",
+      "tetra_d"
+    ],
+    "dry_audio_id": "5-205090-A-32",
+    "dry_audio_file": "assets/dry_audio/5-205090-A-32.wav",
+    "dry_audio_sha256": "5a8f193f14fa649248b1d645ce6dae97f5c105015b3351ffaf86406e998c36d3",
+    "dry_selection": "maximum-energy duration window; zero pad if short",
+    "rir_file": "rir.npy",
+    "joint_gain": 1.0,
+    "microphone_array": {
+      "name": "tetrahedral-circumradius-56mm-omnidirectional",
+      "frame": "x-forward_y-left_z-up",
+      "element_type": "omnidirectional_mono",
+      "positions_lidar_m": [
+        [
+          0.03266,
+          0.03266,
+          0.03266
+        ],
+        [
+          0.03266,
+          -0.03266,
+          -0.03266
+        ],
+        [
+          -0.03266,
+          0.03266,
+          -0.03266
+        ],
+        [
+          -0.03266,
+          -0.03266,
+          0.03266
+        ]
+      ],
+      "positions_world_m": [
+        [
+          -0.9871498663994515,
+          1.305065844926834,
+          -4.393414976607973
+        ],
+        [
+          -1.0158711051829508,
+          1.2397458449268342,
+          -4.452081771669074
+        ],
+        [
+          -0.9284830713383505,
+          1.2397458449268342,
+          -4.422136215391473
+        ],
+        [
+          -0.9572043101218498,
+          1.305065844926834,
+          -4.480803010452574
+        ]
+      ],
+      "rendering": "one physical Mono SoundSpaces listener per position"
+    },
+    "dry_audio_path_base": "dataset_root"
+  },
+  "soundspaces": {
+    "direct": true,
+    "indirect": true,
+    "diffraction": true,
+    "transmission": true,
+    "directRayCount": 500,
+    "indirectRayCount": 5000,
+    "indirectRayDepth": 200,
+    "sourceRayCount": 200,
+    "sourceRayDepth": 10,
+    "maxDiffractionOrder": 10,
+    "maxIRLength": 2.0,
+    "unitScale": 1.0,
+    "globalVolume": 1.0,
+    "threadCount": 4,
+    "temporalCoherence": false,
+    "meshSimplification": false,
+    "enableMaterials": true,
+    "materials_json": "assets/mp3d_material_config.json",
+    "materials_sha256": "77cc3b16f45843b1138020837d4f78aeaf0abda2427f658291b632d84afbb1f4",
+    "seed": null,
+    "seed_note": "RLR binding exposes no acoustic RNG seed; RIR is retained",
+    "acoustic_material_geometry": "original triangles, centroid texture categories; LiDAR uses original per-hit textures",
+    "habitat_seed": 1287303949,
+    "channel_type": "mono_per_microphone",
+    "sample_rate": 44100,
+    "microphone_render_attempts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "microphone_retry_policy": {
+      "max_attempts": 32,
+      "method": "retain first valid response per microphone; retry identical settings and poses",
+      "limitation": "accepted responses are conditioned on nonzero simulator output; acoustic RNG is not exposed"
+    },
+    "materials_path_base": "dataset_root"
+  },
+  "difficulty": {
+    "setting": "S3",
+    "same_class_distractors": 2,
+    "different_sound_capable_distractors": 7,
+    "visible_instance_ids": [
+      89,
+      372,
+      375,
+      380,
+      381,
+      382,
+      386,
+      391,
+      438,
+      439,
+      440,
+      441,
+      443,
+      444,
+      445,
+      446,
+      451,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      472,
+      473,
+      474,
+      475,
+      477,
+      480,
+      482,
+      483,
+      484,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      535,
+      566,
+      569,
+      570,
+      571,
+      572,
+      573,
+      576,
+      579,
+      580,
+      582,
+      583,
+      588,
+      602,
+      607,
+      608,
+      609,
+      610,
+      616,
+      617,
+      620,
+      621,
+      675,
+      678,
+      679,
+      684,
+      685,
+      734
+    ],
+    "same_class_instance_ids": [
+      498,
+      501
+    ]
+  },
+  "validity": {
+    "min_source_points": 30
+  },
+  "scene_assets": {
+    "labels": "4b858acc60b79848aa14677e0bfc4aa948901c0b571cfd2b311d5439fe38bbf2",
+    "semantic": "a492b9e122a857c10ce1e3ddd1e98408ea318849367f17b5f211a99f8831295b",
+    "visual": "e406c071352a385d914416d8e80e02b7252a7d53c740ebfd0416d1c0a4a60581",
+    "navmesh": "f13feb923b5bd3c7dbc145ed79720f3b663d41d80a0c5e70d9d82c74d3690164"
+  },
+  "active_sources": [
+    734
+  ],
+  "sequence_id": null,
+  "timestamp_sec": 0.0,
+  "source_motion": null,
+  "provenance": {
+    "python": "3.9.19",
+    "habitat_commit": "4f61e321477708fa606fbd8f42b4bef41d67c672",
+    "soundspaces_commit": "287184fd7067a0385558492716355c54875500ee",
+    "benchmark_commit": "b6992bdeb2ef05871af27b0f05de3dc0cc266557",
+    "benchmark_working_diff_sha256": "b21e44ae474a107147f1fc4b4b2d07df129156820f50c2c7f9208787cb01c9c5",
+    "habitat_patch_sha256": "2c3ce34dd9b9f9bc7e65c663c6fbfa1a3fa430fe83cabc010051c1706a0bef11"
+  },
+  "four_channel_source": {
+    "source_dataset_name": "v1-expanded16-2channel",
+    "source_sample": "test/00269-JNiWU5TZLtt/734/00002",
+    "source_metadata_sha256": "78b633b30bc04b3ae41cbd64368abf5bc07de76144ea68e240d900d67f0d44c4",
+    "lidar_sha256": "e6f70bbfb04b0724000f04c7e4defe37b1c1016eb859ff24a658e05bfcc9e3ce",
+    "render_spec": "metadata/render_config.json",
+    "render_spec_path_base": "dataset_root",
+    "generation_job_id": "197479",
+    "worker_id": "197478-0",
+    "render_attempts_this_run": 1
+  }
+}
